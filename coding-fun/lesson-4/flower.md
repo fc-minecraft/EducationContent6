@@ -1,7 +1,8 @@
 ### @codeStart players set @s makecode 0
 ### @codeStop players set @s makecode 1
 
-### @hideIteration true
+### @hideIteration true 
+### @flyoutOnly 1
 ### @explicitHints 1
 
 
@@ -13,6 +14,11 @@
 #### ~ tutorialhint
 Не забудь выбрать количество для команды установить блок агента.
 
+```template
+player.onChat("flower", function () {
+
+})
+```
 
 ```ghost
 player.onChat("flower", function () {

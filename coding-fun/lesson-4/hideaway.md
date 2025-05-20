@@ -2,6 +2,7 @@
 ### @codeStop players set @s makecode 1
 
 ### @hideIteration true 
+### @flyoutOnly 1
 ### @explicitHints 1
 
 
@@ -13,7 +14,13 @@
 #### ~ tutorialhint
 Должно быть 2 цикла повторения, один вложенный в другой.
 
- 
+
+```template
+player.onChat("bamboo", function () {
+
+})
+```
+
 ```ghost
 player.onChat("bamboo", function () {
     for (let index = 0; index < 3; index++) {

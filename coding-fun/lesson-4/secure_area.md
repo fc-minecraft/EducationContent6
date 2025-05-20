@@ -2,6 +2,7 @@
 ### @codeStop players set @s makecode 1
 
 ### @hideIteration true 
+### @flyoutOnly 1
 ### @explicitHints 1
 
 
@@ -12,8 +13,6 @@
 
 #### ~ tutorialhint
 Убедись, что агент размещает блоки справа и разрушает блоки слева.
-
-
 ```blocks
 player.onChat("fence", function () {
     agent.setItem(OAK_FENCE, 64, 1)
@@ -21,6 +20,13 @@ player.onChat("fence", function () {
             }
 })
 ```
+
+```template
+player.onChat("fence", function () {
+
+})
+```
+
 ```ghost
 player.onChat("fence", function () {
     agent.setItem(OAK_FENCE, 64, 1)

@@ -5,13 +5,13 @@
 ### @explicitHints 1
 
 
-# Make the area pretty!
+# Сделай территорию красивой!
 
-## Step 1
-You need to plant **14 dandelions** along **4** sides of the hideaway. The Agent can plant **14** dandelions on one side. 
+## Шаг 1
+Тебе нужно посадить 14 одуванчиков вдоль 4 сторон укрытия. Агент может посадить 14 одуванчиков на одной стороне.
 
-#### ~ tutorialhint 
-Don't forget to select a count for ``||agent:agent set block||`` command. 
+#### ~ tutorialhint
+Не забудь выбрать количество для команды установить блок агента.
 
 
 ```ghost

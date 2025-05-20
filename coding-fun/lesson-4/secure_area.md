@@ -5,13 +5,14 @@
 ### @explicitHints 1
 
 
-# Secure the Area
+# Обеспечь безопасность территории
 
-## Step 1
-Program the Agent to construct an **oak fence**. The agent needs to place **oak fence** blocks to the right, destroy obstacles and move forward. The fence should be **17 blocks** long. 
+## Шаг 1
+Запрограммируй агента построить дубовый забор. Агенту нужно разместить блоки дубового забора справа, разрушить препятствия и двигаться вперёд. Забор должен быть длиной 17 блоков.
 
 #### ~ tutorialhint
-Ensure that the Agent places blocks on the right and destroys blocks on the left. 
+Убедись, что агент размещает блоки справа и разрушает блоки слева.
+
 
 ```blocks
 player.onChat("fence", function () {

@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Bamboo Border
+# Бамбуковая граница
 
-## Step 1
-There is a starter code that we prepared for you.  Try running it first. The final goal is to plant bamboo along **4** sides of the panda's plot. 
+## Шаг 1
+Есть стартовый код, который мы подготовили для тебя. Попробуй сначала запустить его. Конечная цель — посадить бамбук вдоль 4 сторон участка панды.
 
 ```template
 player.onChat("bamboo", function () {

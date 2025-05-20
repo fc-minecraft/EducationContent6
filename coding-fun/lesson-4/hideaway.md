@@ -5,13 +5,14 @@
 ### @explicitHints 1
 
 
-# Bamboo Hideaway
+# Бамбуковое укрытие
 
-## Step 1
-Program the Agent to plant **3** blocks of bamboo on each side of the sand patch. Add an ``||agent: agent turn||``command to make sure the Agent can complete the activity. 
+## Шаг 1
+Запрограммируй агента посадить 3 блока бамбука на каждой стороне песчаного участка. Добавь команду поворота агента, чтобы убедиться, что агент может завершить задачу.
 
 #### ~ tutorialhint
-There should be 2 **repeat** loops, one nested inside the other.
+Должно быть 2 цикла повторения, один вложенный в другой.
+
  
 ```ghost
 player.onChat("bamboo", function () {

@@ -47,7 +47,6 @@ let длина = 0
 
 ### ~ tutorialHint
 Добавь блок ``||agent: агент двигаться вниз||`` перед внутренним циклом, чтобы код работал!
-### ~ tutorialHint
 ```blocks
     agent.move(DOWN, 1)
     for (let index = 0; index < сегменты; index++) {

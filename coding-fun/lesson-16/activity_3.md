@@ -5,10 +5,35 @@
 ### @explicitHints 1
 
 
-# Build a Town Hall!
+# Построй ратушу!
 
-## Step 1
-Use **stone** as your building material, create **3** ``||variable: variables||`` and name them **width**, **length** and **height**; set the ``||variable: variables||`` to the correct parameters. Don't forget to add your variables to the ``||player: on chat||`` command.
+## Шаг 1
+Используй **камень** в качестве строительного материала, создайте **3** ``||variable: переменные||`` и назови их **ширина**, **длина** и **высота**; установи ``||variable: переменным||`` правильные значения. Не забудь добавить свои переменные в команду ``||player: при команде чата||``.
+### ~ tutorialHint
+```block
+player.onChat("ратуша", function (длина, ширина, высота) {
+    for (let index = 0; index < высота; index++) {
+        for (let index = 0; index < КОЛИЧЕСТВО; index++) {
+            for (let index = 0; index < длина; index++) {
+            СТРОИТЕЛЬСТВО
+            }
+            ПОВОРОТ
+            for (let index = 0; index < ширина; index++) {
+            СТРОИТЕЛЬСТВО
+            }
+            ПОВОРОТ
+        }
+        ДВИЖЕНИЕ
+    }
+})
+```
+
+```template
+player.onChat("ратуша", function (длина, ширина, высота) {
+
+})
+```
+
 
 ```ghost
 player.onChat("town_hall", function (length, width, height) {

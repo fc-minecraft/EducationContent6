@@ -62,19 +62,7 @@ for (let index = 0; index < 4; index++) {
 ```
 
 ```template
-count = 0
-for (let index = 0; index < 4; index++) {
-    while (!(true)) {
-        if (true) {
-        } else {
-        }
-    }
-}
-let count = 0
-let blockB = 0
-let blockA = 0
-blockA = BLOCK_OF_QUARTZ
-blockB = LAPIS_LAZULI_BLOCK
+...
 ```
 
 

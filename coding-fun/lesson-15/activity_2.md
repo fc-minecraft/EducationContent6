@@ -48,6 +48,10 @@ let длина = 0
 ### ~ tutorialHint
 Добавь блок ``||agent: агент двигаться вниз||`` перед внутренним циклом, чтобы код работал!
 ```blocks
+let сегменты = 0
+let длина = 0
+длина = 5
+сегменты = 6
     agent.move(DOWN, 1)
     for (let index = 0; index < сегменты; index++) {
         for (let index = 0; index < длина; index++) {
@@ -55,10 +59,6 @@ let длина = 0
         }
         agent.move(DOWN, 1)
     }
-let сегменты = 0
-let длина = 0
-длина = 5
-сегменты = 6
 ```
 
 ```ghost
